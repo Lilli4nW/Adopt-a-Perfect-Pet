@@ -1,0 +1,111 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+:root{
+    --aquamarine:#95F9E3;
+    --turquoise: #69EBD0;
+    --emerald: #49D49D;
+    --viridian: #558564;
+    --wenge: #564946;
+    --white: #ffff;
+}
+
+h1{
+    background-color: var(--aquamarine);
+    color: var(--emerald);
+    font-size: 36px;
+    text-align: center;
+    padding: 1rem;
+}
+h2 {
+    background-color: var(--turquoise);
+    color:var(--viridian);
+    font-size: 28px;
+    display: block;
+    margin: 1rem 2rem 2rem 1rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+h3{
+    background-color: var(--emerald);
+    font-size: 24px;
+    color: var(--wenge);
+    display: block;
+}
+p{
+    color: var(--wenge);
+}
+nav a{
+    text-decoration: none;
+    color: var(--white);
+    background-color: var(--viridian);
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+nav li{
+    list-style: none;
+}
+
+a{
+    display: block;
+    padding: 1rem;
+    margin: 0 auto;
+}
+ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+}
+
+button{
+    background-color: var(--wenge);
+    color: var(--white);
+}
