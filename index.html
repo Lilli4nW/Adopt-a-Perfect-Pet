@@ -6,6 +6,7 @@
     <meta name="author" content="Lillian Weng">
     <title>Birds of a Flock</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
 </head>
 <body>
     <header>
@@ -14,15 +15,16 @@
             <ul>
                 <li><a href="#adopt">Adopt</a></li>
                 <li><a href="#contact">Contact Us</a></li>
-                <li><a href="#lost">Lost a Bird</a></li>
+                <li><a href="#play">Play a Game</a></li>
             </ul>
         </nav>
+        <button id="darkButton">Dark Mode</button>
     </header>
     <main>
         
         <h2>Adopt Your Own Feathery Friend</h2>
         <p>Bird of a Flock is an adoption shelter for birds. You'll be able to spend time with the bird you are looking to adopt, however the bird chooses you. bird feed inlcuded with the adoption of yout new feathery companion. Bird is priced on species and age.</p>
-        <section id="adoption">
+        <section id="adopt">
             <h2>Available for Adoption</h2>
         <section id="bluey">
             <h3>Bluey</h3>
@@ -43,7 +45,7 @@
         <button type="button">Scarlet Macaw</button>
     </section>
 </section>
-<section id="random">
+<section id="play">
     <h2>Mini Game</h2>
     <p>Bored? Try our little minigame as you wait in line.</p>
     <form>
@@ -68,12 +70,19 @@
         <label for="preferredContactPhone">Phone<span class="required">*</span></label>
         <input name="preferredContact" id="preferredContactPhone" type="radio" required>
     </fieldset>
+    <label for="message">Message<span class="required">*</span></label>
+    <textarea id="message" required></textarea>
+    <input type="submit" id="submit">			
 </form>
 </section>
     </main>
-    <footer>
+    <footer id="contact">
         <h2>Contact Us</h2>
-
+        <address>
+            1111 Street, Gilbert, AZ, 85287
+            <a href="tel:111-111-1111" class="mobile">(111)111-1111</a>
+            <a href="mailto:birdsofaflock@email.com">birdsofaflock@email.com</a>
+          </address>
     </footer>
 </body>
 </html>
