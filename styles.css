@@ -61,7 +61,7 @@ h1{
     color: var(--emerald);
     font-size: 36px;
     text-align: center;
-    padding: 1rem;
+    padding: 1.5rem;
 }
 h2 {
     background-color: var(--turquoise);
@@ -77,10 +77,22 @@ h3{
     background-color: var(--emerald);
     font-size: 24px;
     color: var(--wenge);
+    margin: 0 auto;
+    padding: 1rem;
+    border-bottom: .5rem solid var(--viridian);
+    text-align: center;
     display: block;
+    max-width:fit-content;
+}
+img{
+    display: block;
+    margin:1rem auto;
 }
 p{
+    display: block;
     color: var(--wenge);
+    margin: 1rem;
+    float: right;
 }
 nav a{
     text-decoration: none;
@@ -109,3 +121,4 @@ button{
     background-color: var(--wenge);
     color: var(--white);
 }
+
