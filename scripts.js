@@ -1,8 +1,10 @@
 'use strict'
 
-let darkMode = document.querySelector("turnDark");
+let darkMode = document.getElementById("darkButton");
+let dark = document.querySelector("turnDark")
+
 
 darkMode.addEventListener("click", function(){
-    lightMode.classList.toggle("darkButton");
+    darkMode.classList.toggle("darkButton");
 });
 
