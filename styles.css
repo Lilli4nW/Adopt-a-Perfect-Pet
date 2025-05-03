@@ -133,7 +133,7 @@ button:hover{
 }
 nav a:hover, #submit:hover{
     border: 5px solid var(--turquoise);
-    background-color: var(--emerald);
+    background-color: var(--wenge);
 }
 
 #bluey p, #peas p, #scarlet p, #random p{
@@ -183,3 +183,7 @@ textarea{
     display: block;
     margin: 1rem auto;
 }
+.output{
+    color: var(--emerald);
+    font-weight: bold;
+  }
